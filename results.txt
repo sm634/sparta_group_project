@@ -1,0 +1,35 @@
+                            OLS Regression Results                            
+======================================================================================================
+Dep. Variable:                      y   R-squared:                       0.995
+Model:                            OLS   Adj. R-squared:                  0.994
+Method:                 Least Squares   F-statistic:                     1989.
+Date:                Tue, 06 Aug 2019   Prob (F-statistic):          7.54e-106
+Time:                        22:13:26   Log-Likelihood:                -2870.9
+No. Observations:                 107   AIC:                             5762.
+Df Residuals:                      97   BIC:                             5788.
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+======================================================================================================
+                 		    coef       std err       t        P>|t|    [0.025        0.975]
+------------------------------------------------------------------------------------------------------
+const      			-8.771e+09    1.44e+10    -0.607      0.545   -3.74e+10    1.99e+10
+Research & Development           22.5612      2.358        9.568      0.000    17.881      27.241
+Population           		 767.6003     374.139      2.052      0.043    25.039      1510.162
+Energy          		 3.967e+10    9.26e+09     4.285      0.000    2.13e+10    5.8e+10
+Unemployment          		 5.896e+04    1.42e+04     4.149      0.000    3.08e+04    8.72e+04
+Employment         		-5311.2295    2187.336    -2.428      0.017   -9652.485   -969.973
+Migration          		 3.675e+04    4.26e+04     0.862      0.391   -4.78e+04    1.21e+05
+Trade             		 0.4805       0.056        8.583      0.000    0.369       0.592
+Tourism             		 0.9711       1.141        0.851      0.397   -1.294       3.236
+Exchange Rate          		 4.484e+06    5.91e+06     0.758      0.450   -7.25e+06    1.62e+07
+======================================================================================================
+Omnibus:                       35.280   Durbin-Watson:                   2.067
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              226.990
+Skew:                           0.800   Prob(JB):                     5.12e-50
+Kurtosis:                       9.953   Cond. No.                     7.17e+11
+======================================================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.17e+11. This might indicate that there are
+strong multicollinearity or other numerical problems.
